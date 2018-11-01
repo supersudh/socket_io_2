@@ -1,0 +1,9 @@
+{
+  "mongodbDS": {
+    "url": "mongodb://localhost:27017/ws_test",
+    "database": "ws_test",
+    "name": "mongodbDS",
+    "connector": "mongodb",
+    "useNewUrlParser": true
+  }
+}
