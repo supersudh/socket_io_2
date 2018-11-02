@@ -1,3 +1,25 @@
 {
-  "extends": "loopback"
+  "extends": "loopback",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "env": {
+      "node": true
+    },
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true 
+    }
+  },
+  "rules": {
+    "comma-dangle": "off",
+    "max-len": "off",
+    "space-before-function-paren": "off",
+    "camelcase": "off",
+    "strict": "off",
+    "object-curly-spacing": "off"
+  },
+  "globals": {
+    "log": true,
+    "SUPPORTED_PAIRS": true,
+    "logger": true
+  }
 }
